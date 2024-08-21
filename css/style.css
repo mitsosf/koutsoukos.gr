@@ -1286,4 +1286,12 @@ input[type="text"] {
   opacity: 0;
 }
 
+.js-fullheight {
+  height: 100vh; /* Use viewport height */
+  min-height: 100vh; /* Ensure a minimum height of the viewport */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /*# sourceMappingURL=style.css.map */
